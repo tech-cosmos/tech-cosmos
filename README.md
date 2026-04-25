@@ -36,7 +36,7 @@
 - 🤖 Working on **coding agents that ship real, deployable apps** — not chat
 - ⚡ Specialize in **end-to-end systems**: model orchestration, sandboxed code execution, mobile + web frontends
 - 🧪 Currently shipping **Slopfeed** — an AI app generation + social discovery platform
-- 📍 Based in India
+- 📍 Based in New York City
 
 ---
 
@@ -77,7 +77,8 @@
     <td width="50%" valign="top">
       <h3>📱 Slopfeed</h3>
       <p>AI app generation meets social discovery. Describe an idea → a coding agent builds a working web app, deploys it, and ships it into a TikTok-style discovery feed. Sandboxed Docker code execution, image generation pipeline, and a React Native client.</p>
-      <p><em>Stack: TypeScript · React Native (Expo) · Hono · Bun · Supabase · Redis · Docker · Claude Agent SDK</em></p>
+      <p>Built on <strong>pi-mono</strong> — an open-source coding agent we forked and evolved into a generative app pipeline.</p>
+      <p><em>Stack: TypeScript · React Native (Expo) · Hono · Bun · Supabase · Redis · Docker · pi coding agent</em></p>
     </td>
     <td width="50%" valign="top">
       <h3>🏗️ Fullstack Generator</h3>
