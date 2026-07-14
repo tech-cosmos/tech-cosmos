@@ -1,115 +1,35 @@
-<!-- ==================== HEADER ==================== -->
+# Shivam Raj
 
-<h1 align="center">Hi 👋, I'm Shivam Raj</h1>
-<h3 align="center">Founder & Engineer • AI Agents + Generative Apps</h3>
+Founder-engineer in NYC. I build AI products end to end and ship them: five live products in the past 12 months, all built solo. Before that I co-founded a dev studio (grew it to 7 people) and was the founding engineer at a D2C skincare brand.
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=4000&color=8B5CF6&center=true&vCenter=true&width=600&lines=Building+coding+agents+that+ship+real+apps;AI-generated+software+%E2%86%92+production;From+prompt+%E2%86%92+deployable+product+%F0%9F%9A%80" />
-</p>
+Most of my product code lives in private repos, so here's what the work actually looks like.
 
----
+## Live products
 
-<!-- ==================== SOCIALS ==================== -->
+- **[Next Stop](https://nextstop.homes)** — housing aggregator for international students moving to NYC/NJ. Ingests listings from closed WhatsApp and Facebook groups (a Manifest V3 Chrome extension intercepts Facebook's GraphQL responses instead of scraping the DOM), structures them with delta-cached LLM extraction, and kills cross-posted duplicates with media hashing + fuzzy matching. ~2,500 structured listings. *Next.js 16, React 19, Convex, Python, Claude.*
 
-<p align="center">
-  <a href="https://shivamraj.me/">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge" />
-  </a>
-  <a href="https://www.linkedin.com/in/shivamraj78">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://x.com/shivam_types">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
-  </a>
-  <a href="mailto:shivam@cosmosinfinity.in">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+- **[Slop Feed](https://slopfeed.io)** — describe an app in plain English and it's live on a social feed in ~5 minutes. A multi-agent system (built on the Pi Coding agent) plans, generates, and deploys each app in sandboxed Daytona containers; every published app gets AI features (chat, image gen, music gen) with no API-key setup. iOS beta on [TestFlight](https://testflight.apple.com/join/rnqrqSuE). *React Native, Expo, TypeScript, Hono, Supabase, Redis, Cloudflare R2.*
 
----
+- **[Pageshift](https://pageshift.io)** — turns dense long-form PDFs (VC letters, research reports, decks) into scrollable hosted microsites in ~7 minutes, with an agent-based generation pipeline: specialized subagents for creative direction, copywriting, and imagery. *Next.js 15, TypeScript, Hono, GCP Cloud Run, Daytona, Supabase.*
 
-<!-- ==================== ABOUT ==================== -->
+- **[Math Dash: Brain Game](https://apps.apple.com/us/app/math-dash-brain-game/id6786055630)** — 3D endless-runner math game, live on the App Store. Shipped solo in ~6 weeks; every asset (3D models, SFX, music, store art) came from AI-generation pipelines I scripted (Tripo, ElevenLabs, Suno). Cut the bundle from 277 MB to roughly half by fixing uncompressed GLB textures. *Unity 6, C#, URP.*
 
-## 🚀 About Me
+- **[F1Mock](https://f1mock.com)** — real-time voice AI mock interviews for the U.S. F-1 visa interview, with sub-300ms voice latency. 1,000+ users acquired organically, paying subscribers at $10/month. Code is public: [visa-voice-prep](https://github.com/tech-cosmos/visa-voice-prep). *Next.js, Pipecat, Deepgram, GCP Cloud Run.*
 
-- 🛠️ Founder of **Cosmos Infinity** — building AI-native developer tools
-- 🤖 Working on **coding agents that ship real, deployable apps** — not chat
-- ⚡ Specialize in **end-to-end systems**: model orchestration, sandboxed code execution, mobile + web frontends
-- 🧪 Currently shipping **Slopfeed** — an AI app generation + social discovery platform
-- 📍 Based in New York City
+Also: **[useclaw.xyz](https://useclaw.xyz)** — deploy an OpenClaw or Hermes personal assistant onto a Hetzner VPS, bot running in ~5 minutes.
 
----
+## Open source & research
 
-<!-- ==================== TECH STACK ==================== -->
+- Improved Google's **EfficientDet** (the state-of-the-art object detector in 2020) with a Quad Feature Pyramid Network: mAP 33.5% → 35% on COCO, [published in IEEE](https://ieeexplore.ieee.org/document/9225379), and the code was merged into Google's official EfficientDet repo.
+- 2 PRs merged into [jina-ai/jina](https://github.com/jina-ai/jina): face indexing and search for their neural search framework.
 
-## 🧰 Toolbox
+## Hackathon wins
 
-### 🤖 AI / Agents
-![Python](https://img.shields.io/badge/python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white)
-![Claude Agent SDK](https://img.shields.io/badge/Claude%20Agent%20SDK-D97757?style=for-the-badge)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
+- **Daytona HackSprint NYC** — Best Use of Daytona + 2nd place overall for Pitchbox: drop a GitHub URL, get a narrated video demo (RAG over the repo, ElevenLabs voiceover, Puppeteer + FFmpeg recording in Daytona containers).
+- **HopHacks 2025 (Johns Hopkins)** — Best Use of Gemini API for [Progonomix](https://github.com/tech-cosmos/cliniq-app), an AI platform for doctors built in 36 hours.
 
-### 💻 Frontend
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![React Native](https://img.shields.io/badge/React%20Native-20232a?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=%23D04A37)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+## Contact
 
-### ⚙️ Backend & Infra
-![Hono](https://img.shields.io/badge/Hono-E36002?style=for-the-badge&logo=hono&logoColor=white)
-![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/postgresql-%23336791.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+[shivamraj.me](https://shivamraj.me) · [LinkedIn](https://www.linkedin.com/in/shivamraj78) · [X](https://x.com/shivam_types) · connect2shivamraj2024@gmail.com
 
----
-
-<!-- ==================== PROJECTS ==================== -->
-
-## 🚀 Featured Projects
-
-> Most of my work lives in private repos — here are short writeups of what I'm building.
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📱 Slopfeed</h3>
-      <p>AI app generation meets social discovery. Describe an idea → a coding agent builds a working web app, deploys it, and ships it into a TikTok-style discovery feed. Sandboxed Docker code execution, image generation pipeline, and a React Native client.</p>
-      <p>Built on <strong>pi-mono</strong> — an open-source coding agent we forked and evolved into a generative app pipeline.</p>
-      <p><em>Stack: TypeScript · React Native (Expo) · Hono · Bun · Supabase · Redis · Docker · pi coding agent</em></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🏗️ Fullstack Generator</h3>
-      <p>Slopfeed's generator pipeline, scaled up for production-grade full-stack apps — CRMs, dashboards, internal tools. Each deployed app ships with an embedded OpenClaw bot, so you can keep editing it in plain English long after launch. Like a junior engineer permanently attached to your codebase.</p>
-      <p><em>Private repo · Built on the Slopfeed agent pipeline</em></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🚢 deploy-claw</h3>
-      <p>One-click deployment for OpenClaw bots onto a Hetzner VPS. Strips out the DevOps boilerplate so anyone can stand up their own coding agent in minutes — not days.</p>
-      <p><em>Private repo · TypeScript</em></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🔍 geo-agent</h3>
-      <p>Generative Engine Optimization. A Claude Agent SDK system with SEO and marketing skills that audits your site and recommends the exact questions you should rank for to surface inside ChatGPT, Claude, and Gemini answers.</p>
-      <p><em>Private repo · Claude Agent SDK</em></p>
-    </td>
-  </tr>
-</table>
-
----
-
-<!-- ==================== STATS ==================== -->
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tech-cosmos&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tech-cosmos&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
+Happy to walk through any of the private codebases.
