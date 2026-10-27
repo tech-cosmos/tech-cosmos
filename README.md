@@ -1,4 +1,4 @@
-# Hi, I'm Shivam 👋
+# Hi, I'm Shiv 👋
 
 Welcome to my profile. I work on products around coding agents. Follow my work on [X](https://x.com/shivam_types).
 
