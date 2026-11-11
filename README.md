@@ -13,6 +13,11 @@ Welcome to my profile. I work on products around coding agents. Follow my work o
 - [Math Dash](https://apps.apple.com/us/app/math-dash-brain-game/id6786055630): a Unity endless-runner math game
 - [hookplant.xyz](https://hookplant.xyz): AI hook videos for TikTok
 
+## Packages on PyPI
+
+- [conclave-team](https://github.com/tech-cosmos/conclave): a managed team of coding agents your own coding agent starts and runs, `pip install conclave-team`
+- [turing-bf16](https://github.com/tech-cosmos/turing-bf16): run bf16 PyTorch models on Turing GPUs (RTX 20xx, T4), up to 7.4x faster on a T4, `pip install turing-bf16`
+
 ## Research interests
 
 - Teaching small models to write animation code using a compact animation DSL for creative tools
